@@ -17,3 +17,25 @@ body {
   margin: 0 auto;
   padding: 50px 30px;
 }
+
+header {
+  text-align: center;
+}
+
+header h2 {
+  font-size: 34px;
+  font-weight: 200px;
+
+}
+
+header h3 {
+  font-size: 34px;
+  font-weight: 600px;
+  color: hsl(234, 12%, 34%);
+}
+
+header p {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
