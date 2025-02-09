@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
-* {
+*,
+::before,
+::after {
   margin: 0;
   padding: 0;
 }
@@ -38,4 +40,26 @@ header p {
   max-width: 600px;
   margin: 0 auto;
   margin-top: 20px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  margin-top: 60px;
+}
+
+.box {
+  background-color: white;
+  border-radius: 7px;
+  padding: 30px;
+  text-align: right;
+}
+
+.box-text {
+  text-align: left;
+}
+
+.box1 {
+  border-top: 4px solid;
 }
