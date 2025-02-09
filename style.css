@@ -75,3 +75,9 @@ header p {
 .box4 {
   border-top: 4px solid hsl(212, 86%, 64%);
 }
+
+.box-text h5 {
+  font-size: 20px;
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 10px;
+}
