@@ -66,6 +66,7 @@ header p {
 
 .box2 {
   border-top: 4px solid hsl(0, 78%, 62%);
+  margin-bottom: 25px;
 }
 
 .box3 {
@@ -77,7 +78,14 @@ header p {
 }
 
 .box-text h5 {
-  font-size: 20px;
+  font-size: 30px;
   color: hsl(234, 12%, 34%);
   margin-bottom: 10px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
 }
