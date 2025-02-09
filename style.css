@@ -60,6 +60,18 @@ header p {
   text-align: left;
 }
 
+.box {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.box2 {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
 .box1 {
-  border-top: 4px solid;
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.box1 {
+  border-top: 4px solid hsl(180, 62%, 55%);
 }
